@@ -1,0 +1,79 @@
+body, html{
+width:100%;
+height: 100%;
+font: arial;
+}
+
+body{
+    background-color: black;
+}
+
+#formbody{
+    width: 25em;
+    height: 30em;
+    background-color: white;
+    margin: 2em auto;
+    padding: 1em;
+    border:2px solid grey;
+
+}
+
+h1{
+
+    text-align: center;
+    margin: 2em 0 1em 0;
+
+}
+
+input{
+    display: block;
+    margin: 4em auto;
+    padding: .25em;
+    height: 1.5em;
+    width: 25em;
+    border: none;
+    font-size: 13px;
+    color: grey;
+    border-bottom:2px solid rgba(110,110,110,.3);
+}
+
+#submit{
+background-color: black;
+color: white;
+height: 5em;
+font-size: 15px;
+ width: 25em;
+
+}
+
+#submit:hover{
+color:purple;
+}
+
+#bottom:hover{
+color:orange;
+}
+
+#welcome{
+color: grey;
+opacity: .7;
+margin: auto;
+text-align: center;
+font: arial;
+height: 1.5em;
+width: 25em;
+margin-top: 20px;
+
+border-top: grey 2px solid;
+
+}
+
+#bottom, a{
+    height: 1.5em;
+    width: 25em;
+    font-size: 15px;
+    color: grey;
+    opacity: .7;
+    margin: 0 auto;
+    text-align: center;
+}
